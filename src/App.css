@@ -32,6 +32,9 @@ header {
   background-color: #203040;
   color: #fff;
   padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header a {
@@ -134,4 +137,69 @@ button.button-primary {
 
 .filter div {
   flex: 1 1;
+}
+
+/* Index css */
+.cart {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+}
+
+.cart-header {
+  border-bottom: .1rem solid #c0c0c0;
+}
+
+.cart-items {
+  padding: 0;
+}
+
+.cart-items img {
+  width: 5rem;
+}
+
+.cart-items li {
+  display: flex;
+}
+
+.cart-items li div {
+  padding: .5rem;
+}
+
+.cart-items li div:last-child {
+  flex: 1;
+}
+
+/* .qty-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qty-card input {
+  width: 2rem;
+  text-align: center;
+}
+
+.qty-card .qty-increase,
+.qty-card .qty-decrease {
+  display: inline-block;
+  border: 1px solid rgb(200, 200, 200);
+  color: rgb(153, 153, 153);
+  padding: 6px 12px;
+  cursor: pointer;
+} */
+
+.right {
+  text-align: right;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.total > div, .total > button {
+  flex: 1;
 }
