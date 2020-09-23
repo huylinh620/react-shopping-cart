@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import formatCurrency from "../util";
 import Fade from 'react-reveal/Fade';
+import { connect } from 'react-redux';
+import { removeFromCart } from '../actions/cartActions';
 
-export default class Cart extends Component {
+class Cart extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -44,12 +46,6 @@ export default class Cart extends Component {
                 <div>{item.title}</div>
                 <div className="right">
                  {formatCurrency(item.price)}x{item.count} {" "}
-                  {/* <div className="qty-card">
-                    <span className="qty-decrease">-</span>
-                    <input type="tel" className="qty-input" value={item.count} onChange={this.props.count}></input>
-                    <span className="qty-increase ">+</span>
-                  </div> */}
-                  
                   <button
                     className="button"
                     onClick={() => this.props.removeFromCart(item)}
@@ -115,3 +111,10 @@ export default class Cart extends Component {
 );
 }
 }
+
+export default connect(
+  (state) => ({
+    cartItems: state.cart.cartItems,
+  }),
+  { removeFromCart }
+)(Cart);
