@@ -1,5 +1,5 @@
 # Build a E-commerce app with Redux, React Router, React Reveal...
-Demo: Comming soon
+Demo: http://huylinh620-react-shopping-cart.herokuapp.com/
 
 ## What does a E-commerce app do?
 - Design Shopping Cart Using HTML and CSS
