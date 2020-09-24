@@ -172,25 +172,6 @@ button.button-primary {
   flex: 1;
 }
 
-/* .qty-card {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.qty-card input {
-  width: 2rem;
-  text-align: center;
-}
-
-.qty-card .qty-increase,
-.qty-card .qty-decrease {
-  display: inline-block;
-  border: 1px solid rgb(200, 200, 200);
-  color: rgb(153, 153, 153);
-  padding: 6px 12px;
-  cursor: pointer;
-} */
-
 .right {
   text-align: right;
 }
@@ -273,4 +254,26 @@ input {
 }
 .success-message {
   color: green;
+}
+
+/* Orders */
+.orders {
+  width: 98%;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+td {
+  padding: 5px;
+}
+
+th {
+  text-align: left;
 }
