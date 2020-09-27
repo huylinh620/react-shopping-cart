@@ -8,3 +8,6 @@ Demo: http://huylinh620-react-shopping-cart.herokuapp.com/
 - Creating Animations Using React-Reveal and Add Routes using React-Routers
 - Build Backend using Node, Express, MongoDB and Mongoose
 - Publish Project on the Heroku and MongoDB Atlas
+-----------------------------------------------------------------
+## Portfolio
+http://huylinh620-react-shopping-cart.herokuapp.com/
