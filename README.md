@@ -10,4 +10,4 @@ Demo: http://huylinh620-react-shopping-cart.herokuapp.com/
 - Publish Project on the Heroku and MongoDB Atlas
 -----------------------------------------------------------------
 ## Portfolio
-http://huylinh620-react-shopping-cart.herokuapp.com/
+http://huylinh620-portfolio.herokuapp.com/
